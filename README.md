@@ -1,5 +1,7 @@
 # Name
 
+[![Coverage Status](https://coveralls.io/repos/github/joaothallis/name/badge.svg?branch=main)](https://coveralls.io/github/joaothallis/name?branch=main)
+
 To start your Phoenix server:
 
   * Install dependencies with `mix deps.get`
