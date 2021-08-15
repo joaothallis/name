@@ -7,6 +7,8 @@ defmodule NameWeb.Router do
 
   scope "/api", NameWeb do
     pipe_through :api
+
+    resources "/random_names", RandomNameController, only: [:show], singleton: true
   end
 
   # Enables LiveDashboard only for development
